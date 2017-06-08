@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <launch>
 
-	<arg name="path_save"   default=""/>
-	<arg name="topic"  	default=""/>
+	<arg name="path_save"   default="/home/fan/rosbag_record"/>
+	<arg name="topic"  	default="sensors_raw"/>
 	<arg name="file_name"  	default=""/>
 
 	<group ns="record">
@@ -13,4 +13,3 @@
 	</group>
 
 </launch>
-
